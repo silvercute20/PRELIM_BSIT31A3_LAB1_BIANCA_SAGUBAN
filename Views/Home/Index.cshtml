@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    body {
+        background-image: url('/images/furr.jpg');
+        background-size: cover;
+        background-repeat: non-repeat;
+        background-position: center;
+    }
+</style>
+<h1 class="text-center">𝙋𝙀𝙏𝙄𝙕𝙀𝙉 𝙀𝙓𝘼𝙈 𝙍𝙀𝙎𝙐𝙇𝙏</h1>
+
+<div style="padding: 20px; max-width: 600px; margin: auto; background-color: #87CEFA; border: 3px solid black;
+            border-radius: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.1); font-family: Georgia;
+ color: #000000; position:relative;">
+
+    <p><strong> STUDENT NAME: </strong> @ViewBag.StudentName</p>
+    <p><strong> AGE: </strong> @ViewBag.Age1</p>
+    <p><strong> ABOUT ME: </strong> @ViewBag.About1</p>
+    <p><strong> SCORE: </strong> @ViewBag.Score</p>
+    <p><strong> GRADE: </strong> @ViewBag.Grade1</p>
+    <p><strong> PROGRESS: </strong> @(ViewBag.Progress ? "PASSED" : "FAILED")</p>
+    <p><strong> COURSE: </strong> @ViewBag.Course</p>
+    <p><strong> SESSIONS: </strong> @ViewBag.Sessions</p>
+    <p><strong> Total Tuition: </strong> @ViewBag.TotalFee/p>
+    <p><strong> DISCOUNT: </strong> @ViewBag.Discount</p>
+    <p><strong> Net Fee: </strong> @ViewBag.NetFee</p>
+    <p><strong> EXAM DATE: </strong> @ViewBag.ExamDate.ToString("MMM dd, yyyy hh:mm tt")
+    <p><strong> TUITION FEE(per session): </strong> @ViewBag.TFee</p>
+   
+ 
+<div style="position: absolute; bottom: 390px; right:10px; ">
+    <img src="~/images/pety.jpg" alt="SILVER"
+    style="height:auto; width: 150px; border-radius: 10px; border: 2px solid black;"/>
+</div>
+</div>
+
+<div style="padding: 20px; max-width: 600px; margin: auto; background-color: #FFB2D0; border: 3px solid black;
+            border-radius: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.1); font-family: Georgia;
+ color: #000000; position:relative;">
+
+    <p><strong> STUDENT NAME: </strong> @ViewBag.StudentName2</p>
+    <p><strong> AGE: </strong> @ViewBag.Age2</p>
+    <p><strong> ABOUT ME: </strong> @ViewBag.About2</p>
+    <p><strong> SCORE: </strong> @ViewBag.Score2</p>
+    <p><strong> GRADE: </strong> @ViewBag.Grade2</p>
+    <p><strong> PROGRESS: </strong> @(ViewBag.Progress2 ? "PASSED" : "FAILED")</p>
+    <p><strong> EXAM DATE: </strong> @ViewBag.ExamDate.ToString("MMM dd, yyyy hh:mm tt")</p>
+    <p><strong> TUITION FEE: </strong> @ViewBag.TFee2</p>
+    <p><strong> COURSE: </strong> @ViewBag.Course2</p>
+    <p><strong> SESSIONS: </strong> @ViewBag.Sessions2</p>
+    <p><strong> Total Tuition: </strong> @ViewBag.TotalFee2</p>
+    <p><strong> DISCOUNT: </strong> @ViewBag.Discount2</p>
+    <p><strong> Net Fee: </strong> @ViewBag.NetFee2</p>
+    <p><strong> EXAM DATE: </strong> @ViewBag.ExamDate.ToString("MMM dd, yyyy hh:mm tt")
+    <p><strong> TUITION FEE(per session): </strong> @ViewBag.TFee2</p>
+   
+
+
+    <div style="position: absolute; bottom: 400px; right:10px; ">
+        <img src="~/images/shash.jpg" alt="SILVER"
+             style="height:auto; width: 150px; border-radius: 10px; border: 2px solid black;" />
+    </div>
+</div>
+
+<div style="padding: 20px; max-width: 600px; margin: auto; background-color: #87CEFA; border: 3px solid black;
+            border-radius: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.1); font-family: Georgia;
+ color: #000000; position:relative;">
+
+    <p><strong> STUDENT NAME: </strong> @ViewBag.StudentName3</p>
+    <p><strong> AGE: </strong> @ViewBag.Age3</p>
+    <p><strong> ABOUT ME: </strong> @ViewBag.About3</p>
+    <p><strong> SCORE: </strong> @ViewBag.Score3</p>
+    <p><strong> GRADE: </strong> @ViewBag.Grade3</p>
+    <p><strong> PROGRESS: </strong> @(ViewBag.Progress3 ? "PASSED" : "FAILED")</p>
+    <p><strong> EXAM DATE: </strong> @ViewBag.ExamDate.ToString("MMM dd, yyyy hh:mm tt")</p>
+    <p><strong> TUITION FEE: </strong> @ViewBag.TFee3</p>
+    <p><strong> COURSE: </strong> @ViewBag.Course3</p>
+    <p><strong> SESSIONS: </strong> @ViewBag.Sessions3</p>
+    <p><strong> Total Tuition: </strong> @ViewBag.TotalFee3</p>
+    <p><strong> DISCOUNT: </strong> @ViewBag.Discount3</p>
+    <p><strong> Net Fee: </strong> @ViewBag.NetFee3</p>
+    <p><strong> EXAM DATE: </strong> @ViewBag.ExamDate.ToString("MMM dd, yyyy hh:mm tt")
+    <p><strong> TUITION FEE(per session): </strong> @ViewBag.TFee3</p>
+
+
+    <div style="position: absolute; bottom: 400px; right:10px; ">
+        <img src="~/images/keny.jpg" alt="SILVER"
+             style="height:auto; width: 150px; border-radius: 10px; border: 2px solid black;" />
+    </div>
+</div>
