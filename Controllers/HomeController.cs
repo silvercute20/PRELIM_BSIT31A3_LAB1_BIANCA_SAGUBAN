@@ -36,7 +36,6 @@ namespace furbabystudent.Controllers
             ViewBag.TotalFee = totalFee1;
             ViewBag.NetFee1 = NetFee1;
 
-
             //score stat
             string grade1;
             string result1;
